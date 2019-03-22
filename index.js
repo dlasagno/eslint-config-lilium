@@ -72,6 +72,12 @@ module.exports = {
     'no-label-var': 'error',
     'no-shadow': 'warn',
     'no-shadow-restricted-names': 'error',
-    'no-use-before-define': 'error'
+    'no-use-before-define': 'error',
+
+    // Node.js and CommonJS
+    'no-mixed-requires': 'error',
+    'no-new-require': 'error',
+    'no-path-concat': 'warn',
+    'no-process-exit': 'warn',
   }
 }
