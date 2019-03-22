@@ -65,7 +65,13 @@ module.exports = {
     'no-useless-return': 'error',
     'no-void': 'error',
     'no-with': 'error',
-    'yoda': ['error', 'never', { onlyEquality: true }]
-    
+    'yoda': ['error', 'never', { onlyEquality: true }],
+
+    // Variables
+    'init-declaration': ['warn', 'never', { ignoreForLoopInit: true }],
+    'no-label-var': 'error',
+    'no-shadow': 'warn',
+    'no-shadow-restricted-names': 'error',
+    'no-use-before-define': 'error'
   }
 }
