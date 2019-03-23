@@ -1,0 +1,43 @@
+module.exports = {
+  rules: {
+    'array-bracket-newline': ['error', 'consistent'],
+    'block-spacing': 'error',
+    'brace-style': ['error', 'stroustrup'],
+    'camelcase': 'warn',
+    'capitalized-comments': 'error',
+    'comma-spacing': 'error',
+    'comma-style': 'error',
+    'computed-property-spacing': 'error',
+    'eol-last': 'error',
+    'func-call-spacing': 'error',
+    'func-name-matching': 'error',
+    'function-paren-newline': 'error',
+    'indent': ['error', 2],
+    'key-spacing': 'error',
+    'keyword-spacing': 'error',
+    'max-len': ['warn', {
+      'tabWidth': 2,
+      'ignoreUrls': true
+    }],
+    'max-nested-callbacks': 'warn',
+    'max-statements-per-line': 'warn',
+    'new-cap': 'warn',
+    'new-parens': 'error',
+    'no-lonely-if': 'warn',
+    'no-trailing-spaces': 'error',
+    'no-unneeded-ternary': 'warn',
+    'no-whitespace-before-property': 'error',
+    'object-curly-newline': 'error',
+    'operator-linebreak': ['error', 'after'],
+    'prefer-object-spread': 'warn',
+    'quote-props': ['error', 'consistent-as-needed'],
+    'quotes': ['error', 'single'],
+    'semi': ['error', 'never'],
+    'semi-spacing': 'error',
+    'semi-style': 'error',
+    'space-in-parens': 'error',
+    'spaced-comment': ['error', 'always'],
+    'switch-colon-spacing': 'error',
+    'template-tag-spacing': 'error'
+  }
+}
