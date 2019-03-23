@@ -1,14 +1,12 @@
 {
-  "name": "eslint-config-dlasagno",
+  "name": "eslint-config-lilium",
   "version": "1.0.0",
   "description": "This is my personal eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dlasagno/eslint-config-dlasagno.git"
+    "url": "git+https://github.com/dlasagno/eslint-config-lilium.git"
   },
   "keywords": [
     "eslint",
@@ -17,9 +15,9 @@
   "author": "Daniele Lasagno",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dlasagno/eslint-config-dlasagno/issues"
+    "url": "https://github.com/dlasagno/eslint-config-lilium/issues"
   },
-  "homepage": "https://github.com/dlasagno/eslint-config-dlasagno#readme",
+  "homepage": "https://github.com/dlasagno/eslint-config-lilium#readme",
   "peerDependencies": {
     "eslint": "^5.15.3"
   }
