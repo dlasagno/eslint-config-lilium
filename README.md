@@ -1,5 +1,8 @@
 # eslint-config-lilium
 
+[![Github license](https://img.shields.io/github/license/dlasagno/eslint-config-lilium.svg)](https://github.com/dlasagno/eslint-config-lilium/blob/master/LICENSE)
+[![Github package.json version](https://img.shields.io/github/package-json/v/dlasagno/eslint-config-lilium.svg)](https://github.com/dlasagno/eslint-config-lilium/blob/master/package.json)
+
 This is my personal configuration for eslint.
 I designed it to write clean and readable code according to my tastes.
 
