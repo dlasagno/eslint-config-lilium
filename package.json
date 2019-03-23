@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-dlasagno",
+  "version": "1.0.0",
+  "description": "This is my personal eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlasagno/eslint-config-dlasagno.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Daniele Lasagno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlasagno/eslint-config-dlasagno/issues"
+  },
+  "homepage": "https://github.com/dlasagno/eslint-config-dlasagno#readme",
+  "peerDependencies": {
+    "eslint": "^5.15.3"
+  }
+}
