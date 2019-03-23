@@ -68,7 +68,7 @@ module.exports = {
     'yoda': ['error', 'never', { onlyEquality: true }],
 
     // Variables
-    'init-declarations': ['warn', 'never', { ignoreForLoopInit: true }],
+    'init-declarations': 'warn',
     'no-label-var': 'error',
     'no-shadow': 'warn',
     'no-shadow-restricted-names': 'error',
