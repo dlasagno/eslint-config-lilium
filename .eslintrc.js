@@ -25,7 +25,7 @@ module.exports = {
     'accessor-pairs': 'warn',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'class-method-use-this': 'warn',
+    'class-methods-use-this': 'warn',
     'consistent-return': 'error',
     'curly': ['error', 'multi', 'consistent'],
     'dot-location': ['error', 'property'],
@@ -68,7 +68,7 @@ module.exports = {
     'yoda': ['error', 'never', { onlyEquality: true }],
 
     // Variables
-    'init-declaration': ['warn', 'never', { ignoreForLoopInit: true }],
+    'init-declarations': ['warn', 'never', { ignoreForLoopInit: true }],
     'no-label-var': 'error',
     'no-shadow': 'warn',
     'no-shadow-restricted-names': 'error',
@@ -88,7 +88,7 @@ module.exports = {
     'capitalized-comments': 'error',
     'comma-spacing': 'error',
     'comma-style': 'error',
-    'computes-property-spacing': 'error',
+    'computed-property-spacing': 'error',
     'eol-last': 'error',
     'func-call-spacing': 'error',
     'func-name-matching': 'error',
@@ -122,7 +122,7 @@ module.exports = {
     'template-tag-spacing': 'error',
 
     // ECMAScript 6
-    'body-style': 'error',
+    'arrow-body-style': 'error',
     'arrow-parens': ['error', 'as-needed'],
     'arrow-spacing': 'error',
     'generator-star-spacing': 'error',
@@ -132,7 +132,7 @@ module.exports = {
     'no-useless-constructor': 'warn',
     'no-useless-rename': 'warn',
     'no-var': 'warn',
-    'object-shortand': 'error',
+    'object-shorthand': 'error',
     'prefer-arrow-callback': 'error',
     'prefer-const': 'warn',
     'prefer-destructuring': ['error', { array: false, object: true }],
